@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>{% for ${1:item} in ${2:sequence} %}
-	$3
+	${3:$TM_SELECTED_TEXT}
 {% endfor %}</string>
 	<key>name</key>
 	<string>For</string>
