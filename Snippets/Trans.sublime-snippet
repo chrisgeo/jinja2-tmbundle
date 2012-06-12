@@ -1,0 +1,4 @@
+<snippet>
+	<content>{% trans %}${1:$TM_SELECTED_TEXT}{% endtrans %}</content>
+	<scope>source.jinja, text.html.jinja</scope>
+</snippet>

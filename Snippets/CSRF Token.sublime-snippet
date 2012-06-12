@@ -1,0 +1,5 @@
+<snippet>
+	<content>{% csrf_token %}</content>
+	<tabTrigger>csrf</tabTrigger>
+	<scope>source.html</scope>
+</snippet>
