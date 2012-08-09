@@ -42,6 +42,29 @@
 		</dict>
 		<dict>
 			<key>begin</key>
+			<string>[\"\']{{-?</string>
+			<key>captures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>entity.other.jinja2.delimiter.variable.between.html</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>-?}}.*</string>
+			<key>name</key>
+			<string>meta.scope.jinja2.variable.between.html</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#expression</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>{#-?</string>
 			<key>captures</key>
 			<dict>
