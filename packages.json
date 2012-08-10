@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.2",
+    "packages": [
+        {
+            "name": "Jinja2 Bundle",
+            "description": "Syntax highlighting for Jinja2",
+            "author": "chrisgeo",
+            "homepage": "https://github.com/chrisgeo/jinja2-tmbundle",
+            "last_modified": "2011-12-12 05:04:31",
+            "platforms": {
+                "*": [
+                    {
+                        "version": "0.1",
+                        "url": "https://github.com/chrisgeo/jinja2-tmbundle"
+                    }
+                ]
+            }
+        }
+    ]
+}
